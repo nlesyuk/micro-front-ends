@@ -44,7 +44,8 @@ module.exports = {
       name: "host",
       filename: "remoteEntry.js",
       remotes: {
-        'my-nav': 'nav@http://localhost:3001/remoteEntry.js'
+        'my-nav': 'nav@http://localhost:3001/remoteEntry.js',
+        'my-search': 'search@http://localhost:3002/remoteEntry.js'
       },
       exposes: {},
       shared: {
